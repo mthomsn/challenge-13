@@ -1,0 +1,21 @@
+{
+  "name": "challenge-13",
+  "version": "1.0.0",
+  "description": "Build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthomsn/challenge-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthomsn/challenge-13/issues"
+  },
+  "homepage": "https://github.com/mthomsn/challenge-13#readme"
+}
