@@ -1,10 +1,13 @@
 const router = require('express').Router();
 const Category = require('../../models/Category');
+const Product = require('../../models/Product');
+const ProductTag = require('../../models/ProductTag');
+const Tag = require('../../models/Tag');
 
 // This route uses async/await with '.catch()' for errors
 // and no HTTP status codes
 router.get('/', async (req, res) => {
-  const userData = await User.findAll().catch((err) => {
+  const userData = await Category.findAll().catch((err) => {
     res.json(err);
   });
   res.json(userData);
