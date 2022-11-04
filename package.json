@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/mthomsn/challenge-13/issues"
   },
-  "homepage": "https://github.com/mthomsn/challenge-13#readme"
+  "homepage": "https://github.com/mthomsn/challenge-13#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
 }

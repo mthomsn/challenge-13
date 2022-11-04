@@ -5,13 +5,13 @@ class Product extends Model {}
 
 Product.init({
   id: {
-    type: Datatypes.INTEGER,
+    type: DataTypes.INTEGER,
     primaryKey: true,
     allowNull: false,
     autoIncrement: true,
   },
   product_name: {
-    type: datatype.STRING,
+    type: DataTypes.STRING,
     allowNull: false,
   },
   price: {
@@ -32,6 +32,14 @@ Product.init({
       key: 'id',
     },
   },
-})
+},
+{
+  sequelize,
+  timestamps: false,
+  freezeTableName: true,
+  underscored: true,
+  modelName: 'product',
+}
+)
 
 module.exports = Product;
